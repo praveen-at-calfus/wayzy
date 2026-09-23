@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+*.sqlite3
+
+# uv
+.uv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# OSRM working files — only data/matrix.json is committed
+data/osrm/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
